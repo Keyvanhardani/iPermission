@@ -46,7 +46,7 @@ function ipermission_admin_notices(){
 	$widgets = get_option('ipermission_dashboard_widgets');
 	if(!$widgets){	
 		echo sprintf('<div class="updated"><p>%s</p></div>', 'Thank you for using our plugin, Please click <a href="'.get_admin_url().'index.php"/><strong>Here</strong> to complete the installation.</a>	</br><h3 class="update-nag"> Please visit our own <a href="http://iappi.de/ispam/" target="_blank">support team</a> for any issues.</h3>
-		</br><h3 class="update-nag">iAppi.de Softwareentwicklungâ„¢</h3>');
+		</br><h3 class="update-nag">iAppi.de Softwareentwicklung™</h3>');
 	}
 }
 
@@ -211,7 +211,7 @@ function ipermission_admin_page() {
 		</p>
 	</form>
 	</br><h3 class="update-nag"> Please visit our own <a href="http://iappi.de/ispam/" target="_blank">support team</a> for any issues.</h3>
-		</br><h3 class="update-nag">iAppi.de Softwareentwicklungâ„¢</h3>
+		</br><h3 class="update-nag">iAppi.de Softwareentwicklung™</h3>
 	<?php endif; ?>
 	</div>
 <?php
